@@ -12,14 +12,20 @@ namespace respuestaJsonConMvcNet.Controllers
         // GET: RespuestaJson
         public ActionResult Index()
         {
+            
+                return View();
+        }
+
+        public JsonResult ObtenerJson()
+        {
             List<personas> lista;
             using (dbCursosEntities db = new dbCursosEntities())
             {
                 lista = (from d in db.personas
-                            select d).ToList();
+                         select d).ToList();
             }
 
-                return View(lista);
+            return Json(lista, JsonRequestBehavior.AllowGet);
         }
     }
 }

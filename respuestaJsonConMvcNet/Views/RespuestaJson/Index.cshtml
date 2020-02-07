@@ -3,8 +3,25 @@
     ViewBag.Title = "Index";
 }
 
-@foreach (var oElement in Model)
-{
-    <b>@oElement.nombre</b><br />
-}
+<input type="button" value="Obtener Json" onclick="obtener()" />
+<div id="divJson">
+
+</div>
+
+<script>
+    function obtener() {
+        fetch("@Url.Content("~/RespuestaJson/ObtenerJson")")
+            .then(function (res) {
+                return res.json()
+            })
+            .then(function (json) {
+                console.log(json)
+                let resultado = ''
+                for (let i = 0; i < json.length; i++) {
+                    resultado += "<b>" + json[i].nombre + "</b><br>"
+                }
+                document.getElementById('divJson').innerHTML = resultado
+            })
+    }
+</script>
 
