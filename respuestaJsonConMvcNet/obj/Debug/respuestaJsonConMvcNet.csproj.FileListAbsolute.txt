@@ -81,3 +81,7 @@ C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respue
 C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respuestaJsonConMvcNet\obj\Debug\respuestaJsonConMvcNet.csproj.CopyComplete
 C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respuestaJsonConMvcNet\obj\Debug\respuestaJsonConMvcNet.dll
 C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respuestaJsonConMvcNet\obj\Debug\respuestaJsonConMvcNet.pdb
+C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respuestaJsonConMvcNet\bin\EntityFramework.dll
+C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respuestaJsonConMvcNet\bin\EntityFramework.SqlServer.dll
+C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respuestaJsonConMvcNet\bin\EntityFramework.xml
+C:\Users\AXL\Documents\Visual Studio 2017\Projects\respuestaJsonConMvcNet\respuestaJsonConMvcNet\bin\EntityFramework.SqlServer.xml
